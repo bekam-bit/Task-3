@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
 import { Suspense, lazy} from "react";
 
-const Home = lazy(() => import("./Task2/Home"));
-const About = lazy(() => import("./Task2/About"));
-const Contact = lazy(() => import("./Task2/Contact"));
-const NotFound = lazy(() => import("./Task2/NotFound"));
-const UserProfile = lazy(() => import("./Task2/UserProfile"));
+const Home = lazy(() => import("./Task3/Home"));
+const About = lazy(() => import("./Task3/About"));
+const Contact = lazy(() => import("./Task3/Contact"));
+const NotFound = lazy(() => import("./Task3/NotFound"));
+const UserProfile = lazy(() => import("./Task3/UserProfile"));
 
 const username = "Bekam";
 function App() {
