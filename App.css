@@ -1,0 +1,13 @@
+.navBar{
+  padding: 10px;
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  gap: 15px;
+}
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
